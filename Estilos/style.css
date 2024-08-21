@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #950101;
+    --cor-terciaria: #FF0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.apresentacao__conteudo__texto {
+    font-family: "Crimson Text", serif;
+    font-size: 24px;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.apresentacao__links__link {
+    border: 2px solid var(--cor-terciaria);
+    width: 340px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: "Crimson Text", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apresentacao__links__link img {
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+.foto-luciano {
+    width: 500px; /* ou qualquer tamanho desejado */
+    height: auto; /* mantém a proporção da imagem */
+    border: 3px solid var(--cor-terciaria);
+    border-radius: 4px;
+}
+
+    .apresentacao__links__link:hover{
+        background-color: #272727;
+    }
+
+    .rodape{
+        font-weight: 400;
+        font-size: 24px;
+        font-family: "Crimson Text", serif;
+        text-align: center;
+        padding: 24px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+    }
